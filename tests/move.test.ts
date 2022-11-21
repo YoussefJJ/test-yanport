@@ -1,5 +1,5 @@
-import { Cleaner } from "../src/types/Cleaner";
-import { Grid } from "../src/types/Grid";
+import { Cleaner } from "../src/entities/Cleaner";
+import { Grid } from "../src/entities/Grid";
 
 describe("testing move", () => {
     let rows = 10;
