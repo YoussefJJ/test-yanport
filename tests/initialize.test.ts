@@ -1,5 +1,6 @@
-import { Cleaner } from "../src/types/Cleaner";
-import { Grid } from "../src/types/Grid";
+import { Cleaner } from "../src/entities/Cleaner";
+import { Grid } from "../src/entities/Grid";
+
 
 describe("testing initialize", () => {
     it ("should throw an error if grid has negative row bound", () => {

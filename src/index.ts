@@ -1,9 +1,8 @@
-import { Cleaner } from "./types/Cleaner";
-import { Grid } from "./types/Grid";
+import { Cleaner } from "./entities/Cleaner";
+import { Grid } from "./entities/Grid";
+
 
 // initialize Grid
-
-// initialize Grid with Cleaner
 let grid = new Grid(10, 10);
 
 // initialize Cleaner
